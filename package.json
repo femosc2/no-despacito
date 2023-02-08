@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch"
   },
   "dependencies": {
+    "@firebase/auth": "^0.21.3",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
@@ -16,6 +20,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "firebase": "^9.17.1",
     "next": "13.1.6",
     "postcss-loader": "^7.0.2",
     "react": "18.2.0",
@@ -23,6 +28,10 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "jest": "^29.4.2",
+    "jest-environment-jsdom": "^29.4.2",
     "tailwindcss": "^3.2.4"
   }
 }
